@@ -1,0 +1,32 @@
+/*COLORS
+#55677C--PASTEL NAVY
+#9BA9BC--PASTEL SKY
+#BFCEDC--LIGHT PASTEL SKY
+#98F1E7--LIGHT PASTEL AQUA GREEN
+#50D9C0--PASTEL AQUA GREEN
+-----------------------------------
+#074358--NAVY
+#458985--AQUA GREEN
+#D7D6A5--VANILLA CREAM
+#DBA67B--PASTEL PEACH
+#A55C55--LIGHT BROWN
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#app-interface {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+section {
+    min-height: 100vh;
+}

@@ -1,0 +1,77 @@
+#navigation {
+    position: fixed;
+}
+.navigation {
+    /*change dimnsions to eaxct pixels for production*/
+    position: relative;
+    float: left;
+    left: -15vw;
+    width: 15vw;
+    height: 100vh;
+    /*add gradient overlay below*/
+    background-color: #98F1E7;
+    transition: 0.75s ease;
+    z-index: 10;
+}
+
+.navigation-slide {
+    left: 0vw;
+    transition: 0.75s ease;
+}
+
+.navigation nav {
+    width: inherit;
+    margin: 20px;
+    position: absolute;
+    list-style: none;
+    z-index: inherit;
+}
+.navigation nav li {
+    padding: 10px 0;
+}
+
+.navigation .background {
+    /*change dimnsions to eaxct pixels for production*/
+    width: inherit;
+    height: inherit;
+    opacity: 0.25;
+    background-color: blue;
+}
+
+
+/*web content container*/
+.app-content-view {
+    /*must change dimensions to exact pixels for production deployment*/
+    position: absolute;
+    left: 0vw;
+    float: left;
+    width: 100vw;
+    min-height: 100vh;
+    /*add gradient overlay below*/
+    background-color: #D7D6A5;
+    transition: 0.75s ease;
+}
+
+.app-content-view-slide {
+    left: 15vw;
+    width: 85vw;
+    transition: 0.75s ease;
+}
+
+/* navigation*/
+.nav-btn {
+    position: fixed;
+    width: 38px;
+    color: white;
+    padding:50px;
+    font-size: 2em;
+    z-index: 10;
+}
+.nav-btn i:hover {
+    color: pink;
+    cursor: pointer;
+}
+.nav-btn i:active {
+    color: red;
+    transform: scale(1.3);
+}
