@@ -30,6 +30,28 @@
     padding: 10px 0;
 }
 
+nav li a {
+    color: white;
+}
+
+/*nav li:hover {
+    /*transform: scale(2);
+}*/
+
+nav li a:hover {
+    color: crimson;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+/*nav li a:active {
+
+}
+
+nav li a:visited {
+    color: white;
+}*/
+
 .navigation .background {
     /*change dimnsions to eaxct pixels for production*/
     width: inherit;
